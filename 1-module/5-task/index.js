@@ -3,8 +3,10 @@ function truncate(str, maxlength) {
   let slised = str.slice(0, --maxlength)
 
   if (strLength > maxlength) {
-    return slised += '…'
+    return  `${slised}…`
   } else {
     return str
   }
 }
+
+// С одним минусом у --maxlength не проходит тест
