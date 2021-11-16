@@ -1,3 +1,12 @@
 function truncate(str, maxlength) {
-  // ваш код...
+  let strLength = str.length
+  let slised = str.slice(0, --maxlength)
+
+  if (strLength > maxlength) {
+    return  `${slised}…`
+  } else {
+    return str
+  }
 }
+
+// С одним минусом у --maxlength не проходит тест
