@@ -1,18 +1,5 @@
 import createElement from '../../assets/lib/create-element.js';
 
-
-
-
-// ${rows.map(row => ``).join('')}
-
-// let card = new ProductCard({
-//   name: "Laab kai chicken salad",
-//   price: 10,
-//   category: "salads",
-//   image: "laab_kai_chicken_salad.png",
-//   id: "laab-kai-chicken-salad"
-// });
-
 export default class ProductCard {
   
   constructor(product) {
